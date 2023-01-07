@@ -5,6 +5,6 @@ routes.get('/', (req, res) => {
   res.send('Ricky Blomquist');
 });
 
-routes.get('/', jokes.displayJoke);
+routes.get('/joke', jokes.displayJoke)
 
 module.exports = routes;
