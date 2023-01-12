@@ -1,0 +1,33 @@
+GET http://localhost:8080/contact
+
+###
+
+GET http://localhost:8080/contact/63bc6bedc21a515bbcc0137f
+
+###
+
+GET http://localhost:8080/contact/63bc6bedc21a515bbcc01380
+
+###
+GET http://localhost:8080/contact/63bc6bedc21a515bbcc01381
+
+
+
+###
+GET http://https://cse341-6rfr.onrender.com/contact
+
+###
+
+GET http://https://cse341-6rfr.onrender.com/contact/63bc6bedc21a515bbcc0137f
+
+###
+
+GET http://https://cse341-6rfr.onrender.com/contact/63bc6bedc21a515bbcc01380
+
+###
+GET http://https://cse341-6rfr.onrender.com/contact/63bc6bedc21a515bbcc01381
+
+
+
+
+
