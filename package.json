@@ -1,24 +1,27 @@
 {
-  "name": "server.js",
+  "name": "cse341",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rblomquist/cse341.git"
   },
-  "author": "Ricky Blomquist",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rblomquist/cse341/issues"
   },
   "homepage": "https://github.com/rblomquist/cse341#readme",
   "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "mongodb": "^4.13.0",
     "nodemon": "^2.0.20"
   }
 }
