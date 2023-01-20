@@ -1,0 +1,32 @@
+get http://localhost:8080/week3/contact
+
+###
+
+POST http://localhost:8080/week3/contact/add HTTP/1.1
+
+Content-Type: application/json
+
+{
+    "firstName": "Kaya",
+    "lastName": "Blomquist",
+    "email": "Kaya@gmail.com",
+    "favoriteColor": "purple",
+    "birthday": "03/12/2021"
+}
+
+###
+
+DELETE http://localhost:8080/week3/contact/delete/63caece32c7d36cbbc40af55
+
+###
+
+PUT http://localhost:8080/week3/contact/update/63bc6bedc21a515bbcc01380 HTTP/1.1
+
+Content-Type: application/json
+{
+    "firstName": "Ricky",
+    "lastName": "Blomquist",
+    "email": "rblomquist@test.com",
+    "favoriteColor": "Red",
+    "birthday": "07/19/1992"
+}
