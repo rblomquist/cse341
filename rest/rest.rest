@@ -92,9 +92,9 @@ Content-Type: application/json
 {
     "firstName": "Juliette",
     "lastName": "Blomquist",
-    "email": "Mblomquist@test.com",
+    "email": "jblomquist@test.com",
     "favoriteColor": "Red",
-    "birthday": "05/25/1995"
+    "birthday": "01/03/2023"
 }
 
 ###
