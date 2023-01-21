@@ -54,7 +54,7 @@ const deleteContact = async (req, res) => {
   .collection("contacts")
   .deleteOne({ _id: userId })
 .then(results => {
-    res.status(200).json(results)
+    res.status(204).json(results)
   })
   .catch(err => {
     res.status(500).json({err: "Could not delete"})
