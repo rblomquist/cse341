@@ -63,3 +63,34 @@ Content-Type: application/json
 ###
 
 DELETE http://localhost:8080/contact/delete/63cc165404fdc8f3ee81aece
+
+# WEEK3 PRODCTION
+###
+POST https://cse341-6rfr.onrender.com/contact/add HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Kaya",
+    "lastName": "Blomquist",
+    "email": "Kaya@gmail.com",
+    "favoriteColor": "purple",
+    "birthday": "03/12/2021"
+}
+
+###
+
+PUT https://cse341-6rfr.onrender.com/contact/update/63cc165404fdc8f3ee81aece HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Juliette",
+    "lastName": "Blomquist",
+    "email": "Mblomquist@test.com",
+    "favoriteColor": "Red",
+    "birthday": "05/25/1995"
+}
+
+###
+
+DELETE https://cse341-6rfr.onrender.com/contact/delete/63cc165404fdc8f3ee81aece
+
