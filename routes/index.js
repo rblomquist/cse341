@@ -5,6 +5,6 @@ router.get('/', (req, res) => {
     res.send('Home Page');
   });
 
-router.use("/contact", contacts)
+router.use("/contacts", contacts)
 
 module.exports = router;
