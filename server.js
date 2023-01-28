@@ -16,10 +16,10 @@ app
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader(
     "Access-Control-Allow_Headers",
-    "origin, X-Requested_with, Content-Type, Accept, Z-Key"
+    "Origin, X-Requested_With, Content-Type, Accept, Z-Key"
   );
   res.setHeader("content-Type", "application/json");
-  res.setHeader("access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
   next();
 })
 .use('/', require("./routes"));
