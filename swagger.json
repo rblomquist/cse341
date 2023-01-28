@@ -8,7 +8,6 @@
   "host": "cse341-6rfr.onrender.com",
   "basePath": "/",
   "schemes": [
-    "https",
     "http"
   ],
   "paths": {
@@ -23,7 +22,7 @@
         }
       }
     },
-    "/contact/": {
+    "/contacts/": {
       "get": {
         "description": "",
         "produces": [
@@ -37,7 +36,7 @@
         }
       }
     },
-    "/contact/{id}": {
+    "/contacts/{id}": {
       "get": {
         "description": "",
         "produces": [
@@ -58,7 +57,7 @@
         }
       }
     },
-    "/contact/add": {
+    "/contacts/add": {
       "post": {
         "description": "",
         "parameters": [
@@ -97,7 +96,7 @@
         }
       }
     },
-    "/contact/delete/{id}": {
+    "/contacts/delete/{id}": {
       "delete": {
         "description": "",
         "parameters": [
@@ -118,7 +117,7 @@
         }
       }
     },
-    "/contact/update/{id}": {
+    "/contacts/update/{id}": {
       "put": {
         "description": "",
         "parameters": [
