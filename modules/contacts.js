@@ -14,7 +14,7 @@ const getAll = async (req, res) => {
 };
 
 const getSingle = async (req, res) => {
-  if (!ObjectId,isValid(req.params.id())) {
+  if (!ObjectId.isValid(req.params.id())) {
     res.status(400).json("Must use valid contact ID to find a contact")
   };
   const userId = new ObjectId(req.params.id);
@@ -50,7 +50,7 @@ const addContact = async (req, res) => {
   };
 
 const deleteContact = async (req, res) => {
-  if (!ObjectId,isValid(req.params.id())) {
+  if (!ObjectId.isValid(req.params.id())) {
     res.status(400).json("Must use valid contact ID to delete a contact")
   };
 
@@ -69,7 +69,7 @@ const deleteContact = async (req, res) => {
 }
 
 const updateContact = async (req, res) => {
-  if (!ObjectId,isValid(req.params.id())) {
+  if (!ObjectId.isValid(req.params.id())) {
     res.status(400).json("Must use valid contact ID to update a contact")
   };
   const userId = new ObjectId(req.params.id);
