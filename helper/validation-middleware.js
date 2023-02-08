@@ -1,4 +1,4 @@
-const validator = require('../helpers/validate');
+const validator = require("./validate");
 
 const validate = async (req, res, next) => {
     const validationRule = {
